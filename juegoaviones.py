@@ -181,5 +181,6 @@ def main():
         update_display(screen, background, y_background, all_sprites, g.score, plane, enemies)
         clock.tick(g.FPS)
 
+
 if __name__ == "__main__":
     main()
