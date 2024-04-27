@@ -140,6 +140,7 @@ def spawn_enemy(all_sprites, enemies, special_enemies):
         all_sprites.add(enemy)
         enemies.add(enemy)
 
+
 def initialize_sprites():
     plane = c.Plane()
     enemies = pygame.sprite.Group()
@@ -149,7 +150,6 @@ def initialize_sprites():
     all_sprites = pygame.sprite.Group()
     all_sprites.add(plane)
     return plane, enemies, bullets, special_enemies, all_sprites  # Añade special_enemies a la lista de retorno
-
 
 
 def main():
