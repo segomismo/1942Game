@@ -4,7 +4,6 @@ import sys
 import math
 
 
-
 pygame.init()
 
 WIDTH, HEIGHT = 1000, 800 # Ajusta el tamaño de la pantalla según sea necesario
