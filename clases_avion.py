@@ -4,6 +4,7 @@ import sys
 import math
 
 
+
 import globales_avion as g
 
 
