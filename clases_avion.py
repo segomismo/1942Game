@@ -6,7 +6,6 @@ import math
 import globales_avion as g
 
 
-
 class Plane(pygame.sprite.Sprite):
     def __init__(self):
         self.bullets_count = 1 
